@@ -24,7 +24,7 @@ export class ListComponent implements OnInit {
     console.log('list');
   }
 
-  navigateToEditOrder(orderId) {
+  navigateToOrder(orderId) {
     this.router.navigate(['/edit/' + orderId]);
   }
 }
